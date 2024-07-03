@@ -1,5 +1,5 @@
 import click
-from library.services import (
+from lib.services import (
     add_author,
     add_book,
     add_borrower,
