@@ -1,7 +1,7 @@
 
 from sqlalchemy.orm import Session
 from .db import SessionLocal
-from .models import Author, Book, Borrower
+from db.models import Author, Book, Borrower
 
 def get_db():
     db = SessionLocal()
